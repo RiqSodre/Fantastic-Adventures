@@ -1,0 +1,20 @@
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Teorica\Lista - Strings\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\bin\Debug\Prj_The_Destiny_Sword.exe.config
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Teorica\Lista - Strings\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\bin\Debug\Prj_The_Destiny_Sword.exe
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Teorica\Lista - Strings\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\bin\Debug\Prj_The_Destiny_Sword.pdb
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Teorica\Lista - Strings\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.csprojResolveAssemblyReference.cache
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Teorica\Lista - Strings\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.Properties.Resources.resources
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Teorica\Lista - Strings\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.csproj.GenerateResource.Cache
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Teorica\Lista - Strings\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.exe
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Teorica\Lista - Strings\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.pdb
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Teorica\Lista - Strings\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.frm_Ficha.resources
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\bin\Debug\Prj_The_Destiny_Sword.exe.config
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.exe
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.pdb
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\bin\Debug\Prj_The_Destiny_Sword.exe
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\bin\Debug\Prj_The_Destiny_Sword.pdb
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.csprojResolveAssemblyReference.cache
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.frm_Ficha.resources
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.Properties.Resources.resources
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.csproj.GenerateResource.Cache
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.Frm_Inicio.resources
+C:\Users\Lufus\Documents\Facens\2º Semestre\Programação Estruturada\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.Frm_Jogo.resources
