@@ -87,8 +87,18 @@
             this.pb_Mana = new System.Windows.Forms.ProgressBar();
             this.lbl_pbVida = new System.Windows.Forms.Label();
             this.lbl_pbMana = new System.Windows.Forms.Label();
+            this.btn_Atacar = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lbl_Historia = new System.Windows.Forms.Label();
+            this.btn_Magia = new System.Windows.Forms.Button();
+            this.btn_Escolha = new System.Windows.Forms.Button();
+            this.gp_Opcao = new System.Windows.Forms.GroupBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.gb_Atributos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Picture)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.gp_Opcao.SuspendLayout();
             this.SuspendLayout();
             // 
             // cb_Raca
@@ -167,7 +177,7 @@
             this.gb_Atributos.Size = new System.Drawing.Size(242, 241);
             this.gb_Atributos.TabIndex = 3;
             this.gb_Atributos.TabStop = false;
-            this.gb_Atributos.Text = "Atributos";
+            this.gb_Atributos.Text = "Atributos:";
             // 
             // txt_IntR
             // 
@@ -717,17 +727,17 @@
             this.pb_Vida.Location = new System.Drawing.Point(94, 408);
             this.pb_Vida.Maximum = 9;
             this.pb_Vida.Name = "pb_Vida";
-            this.pb_Vida.Size = new System.Drawing.Size(388, 23);
+            this.pb_Vida.Size = new System.Drawing.Size(393, 23);
             this.pb_Vida.TabIndex = 33;
             // 
             // pb_Mana
             // 
             this.pb_Mana.BackColor = System.Drawing.Color.DodgerBlue;
             this.pb_Mana.ForeColor = System.Drawing.Color.Black;
-            this.pb_Mana.Location = new System.Drawing.Point(94, 439);
+            this.pb_Mana.Location = new System.Drawing.Point(94, 437);
             this.pb_Mana.Maximum = 9;
             this.pb_Mana.Name = "pb_Mana";
-            this.pb_Mana.Size = new System.Drawing.Size(388, 23);
+            this.pb_Mana.Size = new System.Drawing.Size(393, 23);
             this.pb_Mana.TabIndex = 34;
             // 
             // lbl_pbVida
@@ -752,11 +762,100 @@
             this.lbl_pbMana.Text = "0/0";
             this.lbl_pbMana.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btn_Atacar
+            // 
+            this.btn_Atacar.Location = new System.Drawing.Point(6, 20);
+            this.btn_Atacar.Name = "btn_Atacar";
+            this.btn_Atacar.Size = new System.Drawing.Size(123, 39);
+            this.btn_Atacar.TabIndex = 37;
+            this.btn_Atacar.Text = "Atacar";
+            this.btn_Atacar.UseVisualStyleBackColor = true;
+            this.btn_Atacar.Click += new System.EventHandler(this.btn_Atacar_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.btn_Escolha);
+            this.groupBox1.Controls.Add(this.btn_Magia);
+            this.groupBox1.Controls.Add(this.btn_Atacar);
+            this.groupBox1.Location = new System.Drawing.Point(538, 393);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(395, 69);
+            this.groupBox1.TabIndex = 38;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Ações:";
+            // 
+            // lbl_Historia
+            // 
+            this.lbl_Historia.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_Historia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_Historia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl_Historia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Historia.Location = new System.Drawing.Point(538, 12);
+            this.lbl_Historia.Name = "lbl_Historia";
+            this.lbl_Historia.Size = new System.Drawing.Size(395, 202);
+            this.lbl_Historia.TabIndex = 39;
+            // 
+            // btn_Magia
+            // 
+            this.btn_Magia.Location = new System.Drawing.Point(135, 20);
+            this.btn_Magia.Name = "btn_Magia";
+            this.btn_Magia.Size = new System.Drawing.Size(123, 39);
+            this.btn_Magia.TabIndex = 38;
+            this.btn_Magia.Text = "Magia";
+            this.btn_Magia.UseVisualStyleBackColor = true;
+            // 
+            // btn_Escolha
+            // 
+            this.btn_Escolha.Location = new System.Drawing.Point(263, 20);
+            this.btn_Escolha.Name = "btn_Escolha";
+            this.btn_Escolha.Size = new System.Drawing.Size(123, 39);
+            this.btn_Escolha.TabIndex = 39;
+            this.btn_Escolha.Text = "Escolher";
+            this.btn_Escolha.UseVisualStyleBackColor = true;
+            // 
+            // gp_Opcao
+            // 
+            this.gp_Opcao.Controls.Add(this.radioButton2);
+            this.gp_Opcao.Controls.Add(this.radioButton1);
+            this.gp_Opcao.Location = new System.Drawing.Point(538, 314);
+            this.gp_Opcao.Name = "gp_Opcao";
+            this.gp_Opcao.Size = new System.Drawing.Size(395, 78);
+            this.gp_Opcao.TabIndex = 40;
+            this.gp_Opcao.TabStop = false;
+            this.gp_Opcao.Text = "Opções:";
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(6, 19);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(135, 17);
+            this.radioButton1.TabIndex = 41;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Você faz alguma coisa.";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(6, 51);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(175, 17);
+            this.radioButton2.TabIndex = 42;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Você também faz alguma coisa.";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
             // frm_Ficha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(544, 472);
+            this.ClientSize = new System.Drawing.Size(942, 473);
+            this.Controls.Add(this.gp_Opcao);
+            this.Controls.Add(this.lbl_Historia);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lbl_pbMana);
             this.Controls.Add(this.lbl_pbVida);
             this.Controls.Add(this.pb_Mana);
@@ -780,11 +879,14 @@
             this.Name = "frm_Ficha";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ficha do Personagem";
+            this.Text = "The Destiny Sword";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frm_Ficha_FormClosing);
             this.gb_Atributos.ResumeLayout(false);
             this.gb_Atributos.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Picture)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.gp_Opcao.ResumeLayout(false);
+            this.gp_Opcao.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -851,6 +953,14 @@
         private System.Windows.Forms.ProgressBar pb_Mana;
         private System.Windows.Forms.Label lbl_pbVida;
         private System.Windows.Forms.Label lbl_pbMana;
+        private System.Windows.Forms.Button btn_Atacar;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label lbl_Historia;
+        private System.Windows.Forms.Button btn_Escolha;
+        private System.Windows.Forms.Button btn_Magia;
+        private System.Windows.Forms.GroupBox gp_Opcao;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
     }
 }
 

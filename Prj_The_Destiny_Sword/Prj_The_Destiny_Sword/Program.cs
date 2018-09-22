@@ -16,7 +16,7 @@ namespace Prj_The_Destiny_Sword
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_Ficha());
+            Application.Run(new Frm_Inicio());
         }
     }
 }

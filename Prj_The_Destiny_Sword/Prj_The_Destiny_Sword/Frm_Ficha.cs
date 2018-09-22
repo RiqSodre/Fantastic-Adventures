@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 using System.Runtime.InteropServices;
 
 namespace Prj_The_Destiny_Sword
@@ -249,8 +248,7 @@ namespace Prj_The_Destiny_Sword
             }
             else
             {
-                Frm_Jogo jogo = new Frm_Jogo();
-                jogo.Show();
+                lbl_Historia.Text = "A história começa.";
             }
         }
         //Método que fecha o formulário.
@@ -258,6 +256,35 @@ namespace Prj_The_Destiny_Sword
         {
             frm_Ficha ficha = new frm_Ficha();
             Application.Exit();
+        }
+
+        private void btn_Atacar_Click(object sender, EventArgs e)
+        {
+            int atk = 5, result;
+            string totalV;
+
+            totalV = txt_VidaR.Text;
+            result = pb_Vida.Value - atk;
+
+            if (pb_Vida.Value <= 0)
+            {
+                MessageBox.Show("Você morreu!", "Game Over", MessageBoxButtons.OK);
+            }
+            else
+            {
+                pb_Vida.Value = result;
+                lbl_pbVida.Text = (result.ToString() + "/" + totalV);
+            }
+        }
+    }
+
+    public static class ModifyProgressBarColor
+    {
+        [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = false)]
+        static extern IntPtr SendMessage(IntPtr hWnd, uint Msg, IntPtr w, IntPtr l);
+        public static void SetState(this ProgressBar pBar, int state)
+        {
+            SendMessage(pBar.Handle, 1040, (IntPtr)state, IntPtr.Zero);
         }
     }
 }
