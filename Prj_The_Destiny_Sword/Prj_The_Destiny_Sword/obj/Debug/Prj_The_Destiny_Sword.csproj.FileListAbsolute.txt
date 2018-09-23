@@ -24,8 +24,7 @@ C:\Users\Lufus\Desktop\The-Destiny-Sword\Prj_The_Destiny_Sword\Prj_The_Destiny_S
 C:\Users\Lufus\Desktop\The-Destiny-Sword\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\bin\Debug\Prj_The_Destiny_Sword.exe
 C:\Users\Lufus\Desktop\The-Destiny-Sword\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\bin\Debug\Prj_The_Destiny_Sword.pdb
 C:\Users\Lufus\Desktop\The-Destiny-Sword\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.csprojResolveAssemblyReference.cache
-C:\Users\Lufus\Desktop\The-Destiny-Sword\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.frm_Ficha.resources
 C:\Users\Lufus\Desktop\The-Destiny-Sword\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.Frm_Inicio.resources
-C:\Users\Lufus\Desktop\The-Destiny-Sword\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.Frm_Jogo.resources
 C:\Users\Lufus\Desktop\The-Destiny-Sword\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.Properties.Resources.resources
 C:\Users\Lufus\Desktop\The-Destiny-Sword\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.csproj.GenerateResource.Cache
+C:\Users\Lufus\Desktop\The-Destiny-Sword\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\obj\Debug\Prj_The_Destiny_Sword.Frm_Jogo.resources

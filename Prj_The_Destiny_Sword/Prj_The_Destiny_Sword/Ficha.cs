@@ -40,6 +40,7 @@ namespace Prj_The_Destiny_Sword
         public Atributos atributos;
     }
 
+    //Ficha dos Personagens.
     public class Ficha
     {
         //Função com vetor de Raças dos Personagens.
@@ -51,6 +52,7 @@ namespace Prj_The_Destiny_Sword
             Raca orc = new Raca();
 
             #region Human
+            human.nome = "Humano";
             human.atributos.vida = 3;
             human.atributos.mana = 2;
             human.atributos.forca = 2;
@@ -61,6 +63,7 @@ namespace Prj_The_Destiny_Sword
             #endregion
 
             #region Dwarf
+            dwarf.nome = "Anão";
             dwarf.atributos.vida = 2;
             dwarf.atributos.mana = 2;
             dwarf.atributos.forca = 3;
@@ -71,6 +74,7 @@ namespace Prj_The_Destiny_Sword
             #endregion
 
             #region Elf
+            elf.nome = "Elfo";
             elf.atributos.vida = 3;
             elf.atributos.mana = 2;
             elf.atributos.forca = 1;
@@ -81,6 +85,7 @@ namespace Prj_The_Destiny_Sword
             #endregion
 
             #region Orc
+            orc.nome = "Orc";
             orc.atributos.vida = 3;
             orc.atributos.mana = 2;
             orc.atributos.forca = 1;
@@ -89,12 +94,7 @@ namespace Prj_The_Destiny_Sword
             orc.atributos.agilidade = 3;
             orc.atributos.sorte = 2;
             #endregion
-
-            human.nome = "Humano";
-            dwarf.nome = "Anão";
-            elf.nome = "Elfo";
-            orc.nome = "Orc";
-
+            
             Raca[] raca = new Raca[4];
             raca[0] = human;
             raca[1] = dwarf;
@@ -113,6 +113,7 @@ namespace Prj_The_Destiny_Sword
             Classe mage = new Classe();
 
             #region Warrior
+            warrior.nome = "Guerreiro";
             warrior.atributos.vida = 2;
             warrior.atributos.mana = 1;
             warrior.atributos.forca = 2;
@@ -123,6 +124,7 @@ namespace Prj_The_Destiny_Sword
             #endregion
 
             #region Hunter
+            hunter.nome = "Caçador";
             hunter.atributos.vida = 2;
             hunter.atributos.mana = 2;
             hunter.atributos.forca = 4;
@@ -133,6 +135,7 @@ namespace Prj_The_Destiny_Sword
             #endregion
 
             #region Rogue
+            rogue.nome = "Ladino";
             rogue.atributos.vida = 1;
             rogue.atributos.mana = 2;
             rogue.atributos.forca = 2;
@@ -143,6 +146,7 @@ namespace Prj_The_Destiny_Sword
             #endregion
 
             #region Mage
+            mage.nome = "Mago";
             mage.atributos.vida = 1;
             mage.atributos.mana = 3;
             mage.atributos.forca = 1;
@@ -151,11 +155,6 @@ namespace Prj_The_Destiny_Sword
             mage.atributos.agilidade = 3;
             mage.atributos.sorte = 2;
             #endregion
-
-            warrior.nome = "Guerreiro";
-            hunter.nome = "Caçador";
-            rogue.nome = "Ladino";
-            mage.nome = "Mago";
 
             Classe[] classe = new Classe[4];
             classe[0] = warrior;

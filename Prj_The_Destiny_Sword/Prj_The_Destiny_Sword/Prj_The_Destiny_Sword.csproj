@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Frm_Ficha.cs">
+    <Compile Include="Frm_Jogo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Ficha.Designer.cs">
-      <DependentUpon>Frm_Ficha.cs</DependentUpon>
+    <Compile Include="Frm_Jogo.Designer.cs">
+      <DependentUpon>Frm_Jogo.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Inicio.cs">
       <SubType>Form</SubType>
@@ -58,23 +58,15 @@
     <Compile Include="Frm_Inicio.Designer.cs">
       <DependentUpon>Frm_Inicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frm_Jogo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm_Jogo.Designer.cs">
-      <DependentUpon>Frm_Jogo.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Monstros.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ficha.cs" />
-    <EmbeddedResource Include="Frm_Ficha.resx">
-      <DependentUpon>Frm_Ficha.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Jogo.resx">
+      <DependentUpon>Frm_Jogo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Inicio.resx">
       <DependentUpon>Frm_Inicio.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frm_Jogo.resx">
-      <DependentUpon>Frm_Jogo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
