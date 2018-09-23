@@ -89,12 +89,12 @@
             this.lbl_pbMana = new System.Windows.Forms.Label();
             this.btn_Atacar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lbl_Historia = new System.Windows.Forms.Label();
-            this.btn_Magia = new System.Windows.Forms.Button();
             this.btn_Escolha = new System.Windows.Forms.Button();
+            this.btn_Magia = new System.Windows.Forms.Button();
+            this.lbl_Historia = new System.Windows.Forms.Label();
             this.gp_Opcao = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.gb_Atributos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_Picture)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -784,18 +784,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ações:";
             // 
-            // lbl_Historia
+            // btn_Escolha
             // 
-            this.lbl_Historia.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_Historia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbl_Historia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lbl_Historia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Historia.Location = new System.Drawing.Point(538, 12);
-            this.lbl_Historia.Name = "lbl_Historia";
-            this.lbl_Historia.Size = new System.Drawing.Size(395, 202);
-            this.lbl_Historia.TabIndex = 39;
+            this.btn_Escolha.Location = new System.Drawing.Point(263, 20);
+            this.btn_Escolha.Name = "btn_Escolha";
+            this.btn_Escolha.Size = new System.Drawing.Size(123, 39);
+            this.btn_Escolha.TabIndex = 39;
+            this.btn_Escolha.Text = "Escolher";
+            this.btn_Escolha.UseVisualStyleBackColor = true;
             // 
             // btn_Magia
             // 
@@ -806,14 +802,18 @@
             this.btn_Magia.Text = "Magia";
             this.btn_Magia.UseVisualStyleBackColor = true;
             // 
-            // btn_Escolha
+            // lbl_Historia
             // 
-            this.btn_Escolha.Location = new System.Drawing.Point(263, 20);
-            this.btn_Escolha.Name = "btn_Escolha";
-            this.btn_Escolha.Size = new System.Drawing.Size(123, 39);
-            this.btn_Escolha.TabIndex = 39;
-            this.btn_Escolha.Text = "Escolher";
-            this.btn_Escolha.UseVisualStyleBackColor = true;
+            this.lbl_Historia.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_Historia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbl_Historia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbl_Historia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Historia.Location = new System.Drawing.Point(538, 12);
+            this.lbl_Historia.Name = "lbl_Historia";
+            this.lbl_Historia.Size = new System.Drawing.Size(392, 202);
+            this.lbl_Historia.TabIndex = 39;
             // 
             // gp_Opcao
             // 
@@ -826,17 +826,6 @@
             this.gp_Opcao.TabStop = false;
             this.gp_Opcao.Text = "Opções:";
             // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(6, 19);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(135, 17);
-            this.radioButton1.TabIndex = 41;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Você faz alguma coisa.";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
@@ -848,11 +837,22 @@
             this.radioButton2.Text = "Você também faz alguma coisa.";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(6, 19);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(135, 17);
+            this.radioButton1.TabIndex = 41;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Você faz alguma coisa.";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
             // frm_Ficha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(942, 473);
+            this.ClientSize = new System.Drawing.Size(939, 473);
             this.Controls.Add(this.gp_Opcao);
             this.Controls.Add(this.lbl_Historia);
             this.Controls.Add(this.groupBox1);

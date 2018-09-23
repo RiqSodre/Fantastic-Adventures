@@ -242,13 +242,21 @@ namespace Prj_The_Destiny_Sword
         //Carrega a tela do jogo.
         private void btn_Jogo_Click(object sender, EventArgs e)
         {
+            string nomePlayer = txt_Nome.Text.ToUpper();
+          
             if(String.IsNullOrEmpty(txt_Nome.Text))
             {
                 MessageBox.Show("Você ainda não tem um nome, viajante.","Espere um pouco...",MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             else
             {
-                lbl_Historia.Text = "A história começa.";
+                btn_Gerar.Enabled = false;
+                btn_CalAtributos.Enabled = false;
+                txt_Nome.Enabled = false;
+                cb_Classe.Enabled = false;
+                cb_Raca.Enabled = false;
+
+                lbl_Historia.Text = string.Format("Bem vindo {0}. A história começa aqui. No mundo devastado de Kurgala, onde as almas foram esquecidas... você {1} se prepara para sair em busca de algo que irá salvar você e o mundo.", nomePlayer, nomePlayer);
             }
         }
         //Método que fecha o formulário.
@@ -257,27 +265,34 @@ namespace Prj_The_Destiny_Sword
             frm_Ficha ficha = new frm_Ficha();
             Application.Exit();
         }
-
+        //Botão Ataque.
         private void btn_Atacar_Click(object sender, EventArgs e)
         {
             int atk = 5, result;
-            string totalV;
+            string totalV = txt_VidaR.Text;
 
-            totalV = txt_VidaR.Text;
-            result = pb_Vida.Value - atk;
+            result =  pb_Vida.Value - atk;
 
-            if (pb_Vida.Value <= 0)
+            if (result <= 0)
             {
+                pb_Vida.Value = 0;
                 MessageBox.Show("Você morreu!", "Game Over", MessageBoxButtons.OK);
+                btn_Atacar.Enabled = false;
+            }
+            else if(result <= 1)
+            {
+                pb_Vida.Value = result;
+                ModifyProgressBarColor.SetState(pb_Vida, 2);
             }
             else
             {
                 pb_Vida.Value = result;
-                lbl_pbVida.Text = (result.ToString() + "/" + totalV);
             }
+
+            lbl_pbVida.Text = (result.ToString() + "/" + totalV);
         }
     }
-
+    //Modifica a cor da progressbar.
     public static class ModifyProgressBarColor
     {
         [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = false)]
