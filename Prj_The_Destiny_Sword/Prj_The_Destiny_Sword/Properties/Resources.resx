@@ -130,9 +130,6 @@
   <data name="human_hunter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\human_hunter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="human_mage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\human_mage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="elf_warrior" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\elf_warrior.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,11 +139,17 @@
   <data name="human_rogue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\human_rogue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dwarf_warrior" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dwarf_warrior.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dwarf_hunter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dwarf_hunter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elf_mage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elf_mage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dwarf_rogue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dwarf_rogue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,8 +157,8 @@
   <data name="elf_rogue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\elf_rogue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="elf_mage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\elf_mage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="human_mage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\human_mage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="orc_rogue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\orc_rogue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,7 +169,7 @@
   <data name="orc_hunter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\orc_hunter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="jay-epperson-pa-planeofearth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jay-epperson-pa-planeofearth.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

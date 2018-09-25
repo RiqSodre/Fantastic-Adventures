@@ -80,7 +80,6 @@
             this.btn_Gerar = new System.Windows.Forms.Button();
             this.btn_Jogo = new System.Windows.Forms.Button();
             this.btn_CalAtributos = new System.Windows.Forms.Button();
-            this.pb_Picture = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.pb_Vida = new System.Windows.Forms.ProgressBar();
@@ -93,12 +92,13 @@
             this.btn_Magia = new System.Windows.Forms.Button();
             this.lbl_Historia = new System.Windows.Forms.Label();
             this.gp_Opcao = new System.Windows.Forms.GroupBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.pb_Picture = new System.Windows.Forms.PictureBox();
+            this.btn_op1 = new System.Windows.Forms.Button();
+            this.btn_op2 = new System.Windows.Forms.Button();
             this.gb_Atributos.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_Picture)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.gp_Opcao.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Picture)).BeginInit();
             this.SuspendLayout();
             // 
             // cb_Raca
@@ -689,17 +689,6 @@
             this.btn_CalAtributos.UseVisualStyleBackColor = false;
             this.btn_CalAtributos.Click += new System.EventHandler(this.btn_CalAtributos_Click);
             // 
-            // pb_Picture
-            // 
-            this.pb_Picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb_Picture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb_Picture.InitialImage = null;
-            this.pb_Picture.Location = new System.Drawing.Point(269, 12);
-            this.pb_Picture.Name = "pb_Picture";
-            this.pb_Picture.Size = new System.Drawing.Size(263, 379);
-            this.pb_Picture.TabIndex = 8;
-            this.pb_Picture.TabStop = false;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -792,6 +781,7 @@
             this.btn_Escolha.TabIndex = 39;
             this.btn_Escolha.Text = "Escolher";
             this.btn_Escolha.UseVisualStyleBackColor = true;
+            this.btn_Escolha.Click += new System.EventHandler(this.btn_Escolha_Click);
             // 
             // btn_Magia
             // 
@@ -801,6 +791,7 @@
             this.btn_Magia.TabIndex = 38;
             this.btn_Magia.Text = "Magia";
             this.btn_Magia.UseVisualStyleBackColor = true;
+            this.btn_Magia.Click += new System.EventHandler(this.btn_Magia_Click);
             // 
             // lbl_Historia
             // 
@@ -809,44 +800,53 @@
             this.lbl_Historia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Historia.Location = new System.Drawing.Point(538, 12);
             this.lbl_Historia.Name = "lbl_Historia";
-            this.lbl_Historia.Size = new System.Drawing.Size(395, 279);
+            this.lbl_Historia.Size = new System.Drawing.Size(395, 262);
             this.lbl_Historia.TabIndex = 39;
-            this.lbl_Historia.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lbl_Historia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // gp_Opcao
             // 
-            this.gp_Opcao.Controls.Add(this.radioButton2);
-            this.gp_Opcao.Controls.Add(this.radioButton1);
-            this.gp_Opcao.Location = new System.Drawing.Point(538, 294);
+            this.gp_Opcao.Controls.Add(this.btn_op2);
+            this.gp_Opcao.Controls.Add(this.btn_op1);
+            this.gp_Opcao.Location = new System.Drawing.Point(538, 283);
             this.gp_Opcao.Name = "gp_Opcao";
-            this.gp_Opcao.Size = new System.Drawing.Size(395, 98);
+            this.gp_Opcao.Size = new System.Drawing.Size(395, 109);
             this.gp_Opcao.TabIndex = 40;
             this.gp_Opcao.TabStop = false;
             this.gp_Opcao.Text = "Opções:";
             // 
-            // radioButton2
+            // pb_Picture
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(6, 51);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(175, 17);
-            this.radioButton2.TabIndex = 42;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Você também faz alguma coisa.";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.pb_Picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb_Picture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pb_Picture.InitialImage = null;
+            this.pb_Picture.Location = new System.Drawing.Point(269, 12);
+            this.pb_Picture.Name = "pb_Picture";
+            this.pb_Picture.Size = new System.Drawing.Size(263, 379);
+            this.pb_Picture.TabIndex = 8;
+            this.pb_Picture.TabStop = false;
             // 
-            // radioButton1
+            // btn_op1
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(6, 19);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(135, 17);
-            this.radioButton1.TabIndex = 41;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Você faz alguma coisa.";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.btn_op1.Location = new System.Drawing.Point(29, 31);
+            this.btn_op1.Name = "btn_op1";
+            this.btn_op1.Size = new System.Drawing.Size(140, 51);
+            this.btn_op1.TabIndex = 40;
+            this.btn_op1.Text = "Opção 1";
+            this.btn_op1.UseVisualStyleBackColor = true;
+            this.btn_op1.Click += new System.EventHandler(this.btn_op1_Click);
             // 
-            // frm_Ficha
+            // btn_op2
+            // 
+            this.btn_op2.Location = new System.Drawing.Point(222, 31);
+            this.btn_op2.Name = "btn_op2";
+            this.btn_op2.Size = new System.Drawing.Size(155, 51);
+            this.btn_op2.TabIndex = 41;
+            this.btn_op2.Text = "Opção 2";
+            this.btn_op2.UseVisualStyleBackColor = true;
+            this.btn_op2.Click += new System.EventHandler(this.btn_op2_Click);
+            // 
+            // Frm_Jogo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -874,17 +874,16 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "frm_Ficha";
+            this.Name = "Frm_Jogo";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "The Destiny Sword";
+            this.Text = "The Emerald Sword";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frm_Ficha_FormClosing);
             this.gb_Atributos.ResumeLayout(false);
             this.gb_Atributos.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_Picture)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.gp_Opcao.ResumeLayout(false);
-            this.gp_Opcao.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_Picture)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -957,8 +956,8 @@
         private System.Windows.Forms.Button btn_Escolha;
         private System.Windows.Forms.Button btn_Magia;
         private System.Windows.Forms.GroupBox gp_Opcao;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.Button btn_op2;
+        private System.Windows.Forms.Button btn_op1;
     }
 }
 

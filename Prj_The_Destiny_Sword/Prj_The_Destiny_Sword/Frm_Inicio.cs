@@ -21,15 +21,15 @@ namespace Prj_The_Destiny_Sword
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Frm_Jogo ficha = new Frm_Jogo();
-            ficha.Show();
-            Hide();
             BackgroundSong(false);
+            Frm_Jogo jogo = new Frm_Jogo();
+            jogo.Show();
+            Hide();
         }
 
         private void BackgroundSong(bool play)
         {
-            SoundPlayer background = new SoundPlayer(@"C:\Users\Lufus\Desktop\The-Destiny-Sword\Prj_The_Destiny_Sword\Prj_The_Destiny_Sword\Songs\background.wav");
+            SoundPlayer background = new SoundPlayer(@"C:\Users\Lufus\Desktop\The-Destiny-Sword\Prj_The_Destiny_Sword\Songs\background.wav");
             if (play == true)
             {
                 background.PlayLooping();

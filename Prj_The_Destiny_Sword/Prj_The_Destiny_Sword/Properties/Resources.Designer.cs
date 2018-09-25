@@ -193,6 +193,16 @@ namespace Prj_The_Destiny_Sword.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap jay_epperson_pa_planeofearth {
+            get {
+                object obj = ResourceManager.GetObject("jay-epperson-pa-planeofearth", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap orc_hunter {
             get {
                 object obj = ResourceManager.GetObject("orc_hunter", resourceCulture);
