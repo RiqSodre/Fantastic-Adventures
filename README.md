@@ -1,2 +1,2 @@
-# The-Destiny-Sword
+# Fantastic-Adventures
 Jogo de RPG.
